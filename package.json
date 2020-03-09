@@ -7,6 +7,7 @@
     "actioncable": "^5.2.4-1",
     "apollo-boost": "^0.1.23",
     "apollo-link": "latest",
+    "auth0-js": "^9.12.2",
     "babel-loader": "8.0.4",
     "graphql": "^14.0.2",
     "graphql-ruby-client": "latest",
@@ -20,7 +21,7 @@
   "scripts": {
     "start": "yarn run watch:css && PORT=3001 react-scripts start",
     "build": "yarn run build:css && react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --setupFiles ./src/test/setupTests.js",
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
@@ -43,6 +44,9 @@
   "devDependencies": {
     "autoprefixer": "^9.7.4",
     "postcss-cli": "^7.1.0",
-    "tailwindcss": "^1.2.0"
+    "react-test-renderer": "^16.13.0",
+    "tailwindcss": "^1.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2"
   }
 }
