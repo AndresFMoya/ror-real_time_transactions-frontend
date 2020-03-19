@@ -8,6 +8,7 @@ import {
 import './App.css';
 import UsersContainer from './components/usersContainer';
 import GroupsContainer from './components/groupsContainer';
+import Login from "./components/login";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <div className="w-25 d-flex">
             <Link className="text-white" to="/">Groups</Link>
             <Link className="ml-3 text-white" to="/users">Users</Link>
+            <Link className="ml-3 text-white" to="/login">Login</Link>
           </div>
         </nav>
         <Switch>
@@ -25,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/users">
             <UsersContainer />
+          </Route>
+          <Route exact path="/login">
+            <Login />
           </Route>
         </Switch>
       </div>
