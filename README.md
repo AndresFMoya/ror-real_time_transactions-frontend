@@ -34,8 +34,6 @@ This app consist of building a Real Time _Group our Transactions_ App using Rail
 - Rubocop
 - IDE (RubyMine / WebStorm)
 
-### ERD
-![ERD](/lib/assets/Grouping_Transactions_ERD.jpeg?raw=true "ERD")
 
 ### Prerequisites
 
