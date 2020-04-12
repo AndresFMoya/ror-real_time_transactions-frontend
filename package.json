@@ -7,7 +7,7 @@
     "actioncable": "^5.2.4-1",
     "apollo-boost": "^0.1.23",
     "apollo-link": "latest",
-    "auth0-js": "^9.12.2",
+    "auth0-js": "^9.13.2",
     "babel-loader": "8.0.4",
     "graphql": "^14.0.2",
     "graphql-ruby-client": "latest",
